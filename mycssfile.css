@@ -1,0 +1,240 @@
+ /*
+      Bhatia, Hitesh
+      Project #1
+      Fall 2017
+ */
+
+div{
+	background-color: #6d6d6d;
+	width: 100%;
+	
+}
+
+div.mainMenu{
+	background-color: #6d6d6d;
+	width: 100%;
+	margin-top: -3%;
+	display: inline;
+}
+
+div.footer{
+	background-color: #6d6d6d;
+	width: 100%;
+	position: fixed;
+ 	right: 0;
+  	bottom: 0;
+  	left: 0;
+ 	height: 5%;
+}
+
+p.pFooter{
+	margin-left: 40%
+}
+
+div.mainContainer{
+	float: left;
+	width: 60%;
+	background-color: #6d6d6d;
+}
+
+div.blankLeftContainer{
+	width: 20%;
+	background-color: #ffffff;
+	float: left;
+	height: 600px;
+}
+
+div.blankRightContainer{
+	width: 20%;
+	background-color: #ffffff;
+	float: right;
+	height: 600px;
+}
+
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+
+img.logo{
+	margin-left: 5%; 
+	margin-bottom: 1%;
+}
+ul.menu {
+    list-style-type: none;
+    margin-left: 16%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6d6d6d;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    display: block;
+    color: #66b3ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+hr { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-width: 1px;
+    color: #66b3ff;
+} 
+ul.menu li a:hover {
+    background-color: #66b3ff;
+    color: #ffffff;
+}
+
+p{
+	color: #ffffff;
+}
+
+h3{
+	color: #cce6ff;
+	text-decoration: underline;
+	padding-left: 1%;
+	padding-top: 2%;
+}
+
+p.innerText {
+	color: #ffffff;
+	padding-top: 2%;
+	text-align: justify;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+img.oldImg{
+	width:100%;
+	height: auto;
+}
+
+p.homeText{
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+	padding-left: 2%;
+}
+
+a {
+    color: #cce6ff;
+    text-decoration: underline;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:underline; 
+     cursor:pointer;  
+}
+
+div.mainData{
+	margin-top: -3%;
+}
+
+span.footerLogos{
+	float: right;
+	margin-right: 35%
+}
+
+img.icon{
+	height: 20px;
+	width: auto;
+}
+
+p.specialText::first-letter{ 
+    text-transform: capitalize;
+    font-size: 300%;
+}
+
+p.specialText{ 
+    padding-left: 2%; 
+    margin-top: 5%; 
+    margin-bottom: -3%;
+    text-decoration: underline;
+}
+
+table{
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #66b3ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4d4dff;
+}
+
+h1{
+	
+	color: white;
+}
+
+img.map{
+	width:300%;
+	height: auto;
+	margin-left:80%;
+	display: inline;
+
+}
+
+div.contactText {
+	color: #ffffff;
+	padding-top: 2%;
+	text-align: left;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+p.aboutUs{
+	padding-left: 5%;
+	text-align: justify;
+	padding-right: 2%;
+}
+
+div.aboutUs::first-letter{ 
+    text-transform: capitalize;
+    font-size: 300%;
+    padding-left: 2%;
+    color: #66b3ff;
+}
+
+p.neigh{
+	padding-left: 2%;
+	text-align: justify;
+	padding-right: 2%;
+}
+
+p.neighHead{
+	margin-left: 40%;
+	margin-right: auto;
+
+}
+
+h2{
+	color: #ff9900;
+	padding-left: 1%;
+	padding-top: 2%;
+}
+
+img.abtImg{
+	width: 30%;
+	padding-left: 3%;
+	padding-bottom: 5%;
+}
